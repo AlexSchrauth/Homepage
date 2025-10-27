@@ -1,3 +1,7 @@
+body{
+   text-align: center;
+   background-color: blue;
+}
 /*
 =================================================
 BOOKMARKS
@@ -68,6 +72,8 @@ APP WRAPPER
   cursor:pointer;
   color:#999;
 }
-
-
-
+.app-wrapper iframe{
+  width:100%;
+  height:100%;
+  border:none;
+}
